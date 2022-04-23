@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { globalState } from 'utils/globalState';
-import { Layout } from 'components/Layout.tsx/Layout';
+import { Layout } from 'components/Layout/Layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
