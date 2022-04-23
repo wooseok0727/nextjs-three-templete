@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-export const NotFount404 = () => {
+export default function NotFount404() {
   const router = useRouter();
 
   useEffect(() => {
@@ -9,4 +9,4 @@ export const NotFount404 = () => {
   }, [router]);
 
   return null;
-};
+}
