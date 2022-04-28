@@ -25,7 +25,6 @@
     "@typescript-eslint/parser": "^5.20.0",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
-    "eslint-plugin-react-hooks": "^4.4.0",
     "file-loader": "^6.2.0",
     "glslify-loader": "^2.0.0",
     "gts": "^3.1.0",
